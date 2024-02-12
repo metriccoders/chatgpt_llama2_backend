@@ -17,7 +17,8 @@ This is a FastAPI application that serves as an API endpoint for the Llama2 mode
 ## Usage
 1. Install all the required dependencies: llama_cpp, fastapi, uvicorn and pydantic.
 2. Download the Llama2.gguf model from https://huggingface.co/TheBloke/Llama-2-7B-GGUF/tree/main
-3. Start the server:
+3. Update the path to model in the code.
+4. Start the server:
     ```bash
     uvicorn main:app --reload
     ```
